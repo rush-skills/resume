@@ -19,7 +19,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Oct 2023 – present
 - Remote, India
 - Architected and developed scalable, real-time 3D file processing solutions for the online jewelry business
-- Created robust, high-performing backend services and DevOps pipelines for iJewel Studio and SquareCubed
+- Created robust, high-performing backend services and DevOps pipelines for[iJewel Studio](https://ijewel.studio/) and [SquareCubed](https://squarecubed.anks.in/)
 - Integrated AI and photorealistic 3D rendering into e-commerce platforms, enhancing user engagement
 - Delivered innovative platforms that significantly improved the online jewelry design and customization experience, enabling real-time 3D model manipulation and AI-assisted design suggestions
 - Tech Stack: Next.js, React, Svelte, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, WebGi, Google Vertex AI
@@ -29,8 +29,8 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Sept 2020 – Feb 2023
 - Geneva, Switzerland
 - Managed core research compute infrastructure, ensuring high availability for a 250k core compute cluster
-- Designed and implemented fault-tolerant DevOps automation with StackStorm, significantly reducing manual workload
-- Developed adaptive load shaping solutions for resource-intensive research jobs, addressing critical storage issues
+- Designed and implemented fault-tolerant [DevOps automation with StackStorm](https://codimd.web.cern.ch/p/r6lbybhXy), significantly reducing manual workload
+- Developed adaptive [load shaping solutions](https://indico.jlab.org/event/459/contributions/11638/attachments/9708/14174/chep23_stackstorm.pptx) for resource-intensive research jobs, addressing critical storage issues
 - Automated the roles of two support engineers by designing and implementing automation workflows to handle manual remediation processes for cluster nodes, reducing labor costs, minimizing human error, and improving uptime metrics across the production environment
 - Tech Stack: Puppet, MongoDB, Redis, RabbitMQ, Docker, Bash, Python, StackStorm, Kafka, Kubernetes, Golang, Terraform, Foreman, GitLab CI, Grafana, Graphite
 
@@ -49,8 +49,8 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - July 2017 – June 2018
 - Bengaluru, India
 - Developed and optimized data-intensive analytics platforms, improving business intelligence and decision-making efficiency
-- Enhanced Universal Dashboarding Platform (UDP) and Data Democracy Portal (DDP), resulting in improved performance and scalability
-- Re-architected Personify user segmentation platform, significantly reducing processing time and improving user experience
+- Enhanced [Universal Dashboarding Platform (UDP)](https://medium.com/myntra-engineering/universal-dashboarding-p latform-udp-data-visualisation-platform-at-myntra-5f2522fcf72d) and [Data Democracy Portal (DDP)](https://medium.com/myntra-engineering/data-products-self-service-query-platform-ddp-3af1d0f1123b), resulting in improved performance and scalability
+- Re-architected [Personify](https://medium.com/myntra-engineering/personify-user-segmentation-platform-for-myntra-91c6c8806ebe) user segmentation platform, significantly reducing processing time and improving user experience
 - Enabled efficient, data-driven decision-making processes across the organization, enhancing overall operational efficiency
 - Tech Stack: Java, Spring, Redshift, MySQL, AWS, Tomcat, Jersey, MemSQL, Redis
 
@@ -67,7 +67,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 
 # Projects
 
-## iJewel Studio (Pixotronics)
+## [iJewel Studio](https://ijewel.studio/) (Pixotronics)
 
 - 2023-11 - Present
 - Created a comprehensive platform for jewelry designers to upload, optimize, and showcase 3D models
@@ -76,7 +76,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Integrated real-time rendering capabilities for instant previews of jewelry designs
 - Tech Stack: Next.js, React, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, Blender
 
-## Solar Savings Calculator (EnergyGrade)
+## [Solar Savings Calculator](https://energygrade.in/) (EnergyGrade)
 
 - 2016-11 - Present
 - Developed a user-facing, fully responsive, and interactive online calculator for estimating solar installation costs and savings
@@ -84,7 +84,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
 - Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery
 
-## SquareCubed (Pixotronics)
+## [SquareCubed](https://squarecubed.anks.in/)
 
 - 2023-10 - 2023-11
 - Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
@@ -92,7 +92,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
 - Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python
 
-## Mouve App
+## [Mouve App](https://mouve.app/)
 
 - 2019-07 - 2020-01
 - Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories

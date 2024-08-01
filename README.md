@@ -84,7 +84,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
 - Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery
 
-## [SquareCubed](https://squarecubed.anks.in/)
+## [SquareCubed](https://squarecubed.anks.in/) (Pixotronics)
 
 - 2023-10 - 2023-11
 - Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
@@ -92,7 +92,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
 - Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python
 
-## [Mouve App](https://mouve.app/)
+## [Mouve Backend](https://mouve.app/) (Mouve)
 
 - 2019-07 - 2020-01
 - Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories

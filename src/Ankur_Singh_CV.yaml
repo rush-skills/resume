@@ -91,6 +91,8 @@ cv:
           - Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
           - Implemented a scalable backend architecture to handle real-time AI interactions and 3D model rendering
           - Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
+          - Winner of [Square + Google AI Hackathon 2023](https://square-google-ai.devpost.com/) in "Best reinvention or unification of in-person and online experiences" category
+
           - "Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python"
       - name: "[Mouve Backend](https://mouve.app/) (Mouve)"
         date: 2019-07 - 2020-01

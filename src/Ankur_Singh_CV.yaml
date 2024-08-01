@@ -1,6 +1,6 @@
 cv:
   name: Ankur Singh
-  location: Remote, India
+  location: Bangalore, India
   email: hello@anks.in
   phone: tel:+919717193630
   website: https://anks.in
@@ -102,11 +102,11 @@ cv:
       - label: Languages
         details: Python, Ruby, Bash, JavaScript, SQL, Java, C, Golang
       - label: Databases
-        details: PostgreSQL, MongoDB, MySQL, Redshift, MemSQL, SQLite
+        details: PostgreSQL, MySQL, MongoDB, SQLite, Redshift, MemSQL
       - label: Frameworks
         details: Rails, Django, FastAPI, Flask, React, Next.js, Spring Boot
       - label: DevOps & Cloud
-        details: Docker, Kubernetes, AWS, GCP, Terraform, Puppet, StackStorm, HTCondor, Ansible, Slurm, Helm
+        details: Puppet, Ansible, Docker, Kubernetes, AWS, GCP, Azure, Terraform, Helm, StackStorm, HTCondor, Slurm
       - label: Monitoring & Analytics
         details: ELK Stack, InfluxDB, Graphite, Grafana
       - label: Core Competencies

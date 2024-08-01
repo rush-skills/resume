@@ -1,4 +1,4 @@
-\documentclass[12pt, a4paper]{article}
+\documentclass[11pt, a4paper]{article}
 
 % Packages:
 \usepackage[
@@ -10,7 +10,7 @@
     footskip=1.0 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
-\usepackage[explicit]{titlesec} % for customizing section titles
+\usepackage{titlesec} % for customizing section titles
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
@@ -61,18 +61,7 @@
 \makeatother
 \pagestyle{customFooterStyle}
 
-\titleformat{\section}{
-    % avoid page braking right after the section title
-    \needspace{4\baselineskip}
-    % make the font size of the section title large and color it with the primary color
-    \Large\color{primaryColor}
-}{
-}{
-}{
-    % print bold title, give 0.15 cm space and draw a line of 0.8 pt thickness
-    % from the end of the title to the end of the body
-    \textbf{#1}\hspace{0.15cm}\titlerule[0.8pt]\hspace{-0.1cm}
-}[] % section title formatting
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{
     % left space:
@@ -85,7 +74,7 @@
     0.2 cm
 } % section title spacing
 
-% \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
         topsep=0.10 cm,
@@ -98,6 +87,7 @@
     \end{itemize}
 } % new environment for highlights
 
+
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
         topsep=0.10 cm,
@@ -109,7 +99,6 @@
 }{
     \end{itemize}
 } % new environment for highlights for bullet entries
-
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
@@ -135,7 +124,7 @@
 \newenvironment{threecolentry}[3][]{
     \onecolentry
     \def\thirdColumn{#3}
-    \setcolumnwidth{1 cm, \fill, 4.5 cm}
+    \setcolumnwidth{, \fill, 4.5 cm}
     \begin{paracol}{3}
     {\raggedright #2} \switchcolumn
 }{
@@ -145,7 +134,7 @@
 } % new environment for three column entries
 
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\color{primaryColor}\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
 }{
     \par\kern\topsep
 } % new environment for the header
@@ -178,13 +167,12 @@
 
     \placelastupdatedtext
     \begin{header}
-        \fontsize{24 pt}{24 pt}
-        \textbf{Ankur Singh}
+        \fontsize{24 pt}{24 pt}\selectfont Ankur Singh
 
         \vspace{0.3 cm}
 
         \normalsize
-        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Remote, India}%
+        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Bangalore, India}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
@@ -192,7 +180,7 @@
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{tel:+91-97171-93630}{{\footnotesize\faPhone*}\hspace*{0.13cm}+91 97171 93630}}%
+        \mbox{\hrefWithoutArrow{tel:+91-97171-93630}{{\footnotesize\faPhone*}\hspace*{0.13cm}097171 93630}}%
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
@@ -227,13 +215,12 @@
 
         
         \begin{twocolentry}{
-            Remote, India
-
-        Oct 2023 – present
-
-        10 months
+            Oct 2023 – present
         }
-            \textbf{Pixotronics}, Software Engineer
+            \textbf{Software Engineer}, Pixotronics -- Remote, India\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Architected and developed scalable, real-time 3D file processing solutions for the online jewelry business
                 \item Created robust, high-performing backend services and DevOps pipelines for iJewel Studio and SquareCubed
@@ -241,19 +228,18 @@
                 \item Delivered innovative platforms that significantly improved the online jewelry design and customization experience, enabling real-time 3D model manipulation and AI-assisted design suggestions
                 \item Tech Stack: Next.js, React, Svelte, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, WebGi, Google Vertex AI
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Geneva, Switzerland
-
-        Sept 2020 – Feb 2023
-
-        2 years 5 months
+            Sept 2020 – Feb 2023
         }
-            \textbf{European Organization for Nuclear Research (CERN)}, Computing Fellow
+            \textbf{Computing Fellow}, European Organization for Nuclear Research (CERN) -- Geneva, Switzerland\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Managed core research compute infrastructure, ensuring high availability for a 250k core compute cluster
                 \item Designed and implemented fault-tolerant DevOps automation with StackStorm, significantly reducing manual workload
@@ -261,19 +247,18 @@
                 \item Automated the roles of two support engineers by designing and implementing automation workflows to handle manual remediation processes for cluster nodes, reducing labor costs, minimizing human error, and improving uptime metrics across the production environment
                 \item Tech Stack: Puppet, MongoDB, Redis, RabbitMQ, Docker, Bash, Python, StackStorm, Kafka, Kubernetes, Golang, Terraform, Foreman, GitLab CI, Grafana, Graphite
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Gurugram, India
-
-        June 2018 – July 2019
-
-        1 year 1 month
+            June 2018 – July 2019
         }
-            \textbf{Tower Research Capital}, Software Engineer, HPC
+            \textbf{Software Engineer, HPC}, Tower Research Capital -- Gurugram, India\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Administered 4 HTCondor clusters with over 30k cores for high-frequency, low-latency trading operations
                 \item Implemented advanced, real-time monitoring solutions using ELK stack, InfluxDB, and Grafana
@@ -281,19 +266,18 @@
                 \item Enhanced system performance and reliability, enabling efficient and secure trading operations
                 \item Tech Stack: CFEngine, SaltStack, ELK Stack, InfluxDB, Kubernetes, GPFS, Graphite, Grafana
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            Bengaluru, India
-
-        July 2017 – June 2018
-
-        11 months
+            July 2017 – June 2018
         }
-            \textbf{Myntra}, Software Engineer, BI/Analytics
+            \textbf{Software Engineer, BI/Analytics}, Myntra -- Bengaluru, India\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Developed and optimized data-intensive analytics platforms, improving business intelligence and decision-making efficiency
                 \item Enhanced Universal Dashboarding Platform (UDP) and Data Democracy Portal (DDP), resulting in improved performance and scalability
@@ -301,7 +285,7 @@
                 \item Enabled efficient, data-driven decision-making processes across the organization, enhancing overall operational efficiency
                 \item Tech Stack: Java, Spring, Redshift, MySQL, AWS, Tomcat, Jersey, MemSQL, Redis
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
 
@@ -311,19 +295,21 @@
 
 
         
-        \begin{threecolentry}{\textbf{B. Tech.}}{
-            New Delhi, India
-
-        Aug 2013 – July 2017
+        \begin{twocolentry}{
+            Aug 2013 – July 2017
         }
-            \textbf{IIIT Delhi}, Computer Science and Engineering
+            \textbf{IIIT Delhi}, B. Tech. in Computer Science and Engineering -- New Delhi, India\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Gold Medalist for Best BTech Project (Entrepreneurship)
                 \item Admin of Byld - SDE Club
                 \item SysAdmin TA for Data Center and R\&D infrastructure
                 \item Teaching Assistant for Introduction to Programming '14 \& '15
             \end{highlights}
-        \end{threecolentry}
+        \end{onecolentry}
+
 
 
     
@@ -335,7 +321,10 @@
         \begin{twocolentry}{
             2023-11 - Present
         }
-            \textbf{iJewel Studio (Pixotronics)}
+            \textbf{iJewel Studio (Pixotronics)}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Created a comprehensive platform for jewelry designers to upload, optimize, and showcase 3D models
                 \item Implemented Blender-based pipelines for automatic 3D model optimization, including polygon reduction and texture enhancement
@@ -343,7 +332,7 @@
                 \item Integrated real-time rendering capabilities for instant previews of jewelry designs
                 \item Tech Stack: Next.js, React, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, Blender
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
@@ -351,14 +340,17 @@
         \begin{twocolentry}{
             2016-11 - Present
         }
-            \textbf{Solar Savings Calculator (EnergyGrade)}
+            \textbf{Solar Savings Calculator (EnergyGrade)}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Developed a user-facing, fully responsive, and interactive online calculator for estimating solar installation costs and savings
                 \item Implemented efficient algorithms to provide accurate, real-time projections based on user input and location-specific data
                 \item Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
                 \item Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
@@ -366,14 +358,17 @@
         \begin{twocolentry}{
             2023-10 - 2023-11
         }
-            \textbf{SquareCubed (Pixotronics)}
+            \textbf{SquareCubed (Pixotronics)}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
                 \item Implemented a scalable backend architecture to handle real-time AI interactions and 3D model rendering
                 \item Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
                 \item Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
         \vspace{0.2 cm}
@@ -381,13 +376,16 @@
         \begin{twocolentry}{
             2019-07 - 2020-01
         }
-            \textbf{Mouve App}
+            \textbf{Mouve App}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
             \begin{highlights}
                 \item Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories
                 \item Implemented fault-tolerant design with automated error handling and recovery
                 \item Tech Stack: Node.js, Sails.js, Unity
             \end{highlights}
-        \end{twocolentry}
+        \end{onecolentry}
 
 
 
@@ -404,7 +402,7 @@
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Databases:} PostgreSQL, MongoDB, MySQL, Redshift, MemSQL, SQLite
+            \textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, Redshift, MemSQL
         \end{onecolentry}
 
         \vspace{0.2 cm}
@@ -416,7 +414,7 @@
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{DevOps \& Cloud:} Docker, Kubernetes, AWS, GCP, Terraform, Puppet, StackStorm, HTCondor, Ansible, Slurm, Helm
+            \textbf{DevOps \& Cloud:} Puppet, Ansible, Docker, Kubernetes, AWS, GCP, Azure, Terraform, Helm, StackStorm, HTCondor, Slurm
         \end{onecolentry}
 
         \vspace{0.2 cm}

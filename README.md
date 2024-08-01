@@ -2,7 +2,7 @@
 
 - Phone: +91 97171 93630
 - Email: [hello@anks.in](mailto:hello@anks.in)
-- Location: Remote, India
+- Location: Bangalore, India
 - Website: [anks.in](https://anks.in/)
 - LinkedIn: [ankursingh13](https://linkedin.com/in/ankursingh13)
 - GitHub: [rush-skills](https://github.com/rush-skills)
@@ -102,9 +102,9 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 # Skills
 
 - Languages: Python, Ruby, Bash, JavaScript, SQL, Java, C, Golang
-- Databases: PostgreSQL, MongoDB, MySQL, Redshift, MemSQL, SQLite
+- Databases: PostgreSQL, MySQL, MongoDB, SQLite, Redshift, MemSQL
 - Frameworks: Rails, Django, FastAPI, Flask, React, Next.js, Spring Boot
-- DevOps & Cloud: Docker, Kubernetes, AWS, GCP, Terraform, Puppet, StackStorm, HTCondor, Ansible, Slurm, Helm
+- DevOps & Cloud: Puppet, Ansible, Docker, Kubernetes, AWS, GCP, Azure, Terraform, Helm, StackStorm, HTCondor, Slurm
 - Monitoring & Analytics: ELK Stack, InfluxDB, Graphite, Grafana
 - Core Competencies: Software Design, Distributed Computing, Scalable Architecture, Performance Optimization, DevOps & Cloud Infrastructure, Data Analytics, Asynchronous Systems, Intuitive UI/UX, Auto-scaling, Extendable Systems, Reusable Code, Modular Design, Concurrent Processing, Cost-effective Solutions, Highly Available Systems, Resilient Architecture, Well-tested Systems, CI/CD, Test-Driven Development, Multi-threading, Real-time Processing
 - Other: JIRA, Agile Methodologies, Collaboration, Communication, Adaptability, Innovation, Mentoring, Problem-Solving, Critical Thinking

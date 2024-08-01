@@ -1,126 +1,110 @@
-<!-- Remove below in src/markdown/Header.j2.md not in README.md -->
+# Ankur Singh's CV
 
-# RenderCV Pipeline
-
-Are you ready to revolutionize the way you manage and craft your CVs and resumes?
-
-Picture this:
-
-1.  You simply update your `src/John_Doe_CV.yaml` input file and push the changes.
-2.  Then, a pipeline generates a new PDF and Markdown from it and uploads it to the repository.
-3.  When you are done with your work, you can create a new release on GitHub, tagging your CV with something like `v2024.04`. The pipeline will automatically add the PDF and its $\LaTeX$ source as assets to the release.
-4.  You have successfully created your CV pipeline, and all the history is in safe hands and reproducible.
-
-**How to start?**
-
-1.  [Click here](https://github.com/new?template_name=rendercv-pipeline&template_owner=sinaatalay) to create your CV repository based on this `rendercv-pipeline` template repository.
-2.  Edit either
-    -  the `src/John_Doe_CV.yaml` file, or
-    -  the contents of `src/markdown` or `src/classic` directories
-    
-    and push. Then, see the magic happen.
-
-**Some tips**
-
-1.  Learn more about [RenderCV](https://github.com/sinaatalay/rendercv) to understand what you can do with this tool.
-2.  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage.
-3.  Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
-
-<!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
-
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +91 97171 93630
+- Email: [hello@anks.in](mailto:hello@anks.in)
+- Location: Remote, India
+- Website: [anks.in](https://anks.in/)
+- LinkedIn: [ankursingh13](https://linkedin.com/in/ankursingh13)
+- GitHub: [rush-skills](https://github.com/rush-skills)
 
 
-# Welcome to RenderCV!
+# Summary
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
-
-The boilerplate content is taken from [here](https://github.com/dnl-blkv/mcdowell-cv), where a *clean and tidy CV* pattern is proposed by **[Gayle Laakmann McDowell](https://www.gayle.com/)**.
-
-# Quick Guide
-
-- Each section title is arbitrary, and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
-# Education
-
-## University of Pennsylvania, BS in Computer Science
-
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Artificial Intelligence, Comparison of Learning Algorithms, Computational Theory
+Versatile Software Engineer and DevOps specialist with extensive experience in designing and managing large-scale, distributed systems. Proven track record in building scalable, fault-tolerant applications and automating complex processes across diverse technology stacks. Adept at creating high-performing, secure, and resilient solutions that drive business value. Passionate about continuous learning, innovation, and mentoring to enhance system performance and foster team growth.
 
 # Experience
 
-## Apple, Software Engineer
+## Pixotronics, Software Engineer
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render the user's buddy list by 75% by implementing a prediction algorithm
-- Implemented iChat integration with OS X Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Oct 2023 – present
+- Remote, India
+- Architected and developed scalable, real-time 3D file processing solutions for the online jewelry business
+- Created robust, high-performing backend services and DevOps pipelines for iJewel Studio and SquareCubed
+- Integrated AI and photorealistic 3D rendering into e-commerce platforms, enhancing user engagement
+- Delivered innovative platforms that significantly improved the online jewelry design and customization experience, enabling real-time 3D model manipulation and AI-assisted design suggestions
+- Tech Stack: Next.js, React, Svelte, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, WebGi, Google Vertex AI
 
-## Microsoft, Lead Student Ambassador
+## European Organization for Nuclear Research (CERN), Computing Fellow
 
-- Sept 2003 – Apr 2005
-- Redmond, WA
-- Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10-15 Student Ambassadors
-- Created and taught a computer science course, CSE 099: Software Design and Development
+- Sept 2020 – Feb 2023
+- Geneva, Switzerland
+- Managed core research compute infrastructure, ensuring high availability for a 250k core compute cluster
+- Designed and implemented fault-tolerant DevOps automation with StackStorm, significantly reducing manual workload
+- Developed adaptive load shaping solutions for resource-intensive research jobs, addressing critical storage issues
+- Automated the roles of two support engineers by designing and implementing automation workflows to handle manual remediation processes for cluster nodes, reducing labor costs, minimizing human error, and improving uptime metrics across the production environment
+- Tech Stack: Puppet, MongoDB, Redis, RabbitMQ, Docker, Bash, Python, StackStorm, Kafka, Kubernetes, Golang, Terraform, Foreman, GitLab CI, Grafana, Graphite
 
-## University of Pennsylvania, Head Teaching Assistant
+## Tower Research Capital, Software Engineer, HPC
 
-- Oct 2001 – May 2003
-- Philadelphia, PA
-- Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimized its performance via caching
-- Programmer Productivity Research Center (Summers 2001, 2002)
-- Built an app to compute the similarity of all methods in a code base, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
+- June 2018 – July 2019
+- Gurugram, India
+- Administered 4 HTCondor clusters with over 30k cores for high-frequency, low-latency trading operations
+- Implemented advanced, real-time monitoring solutions using ELK stack, InfluxDB, and Grafana
+- Contributed to setting up a 500-node Kubernetes cluster for infrastructure migration, focusing on scalability and resilience
+- Enhanced system performance and reliability, enabling efficient and secure trading operations
+- Tech Stack: CFEngine, SaltStack, ELK Stack, InfluxDB, Kubernetes, GPFS, Graphite, Grafana
 
-## Microsoft, Software Engineer, Intern
+## Myntra, Software Engineer, BI/Analytics
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- July 2017 – June 2018
+- Bengaluru, India
+- Developed and optimized data-intensive analytics platforms, improving business intelligence and decision-making efficiency
+- Enhanced Universal Dashboarding Platform (UDP) and Data Democracy Portal (DDP), resulting in improved performance and scalability
+- Re-architected Personify user segmentation platform, significantly reducing processing time and improving user experience
+- Enabled efficient, data-driven decision-making processes across the organization, enhancing overall operational efficiency
+- Tech Stack: Java, Spring, Redshift, MySQL, AWS, Tomcat, Jersey, MemSQL, Redis
 
-# Publications
+# Education
 
-## Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Albert Smith, ***John Doe***, Jane Derry, Harry Tom, Frodo Baggins
+## IIIT Delhi, B. Tech. in Computer Science and Engineering
+
+- Aug 2013 – July 2017
+- New Delhi, India
+- Gold Medalist for Best BTech Project (Entrepreneurship)
+- Admin of Byld - SDE Club
+- SysAdmin TA for Data Center and R&D infrastructure
+- Teaching Assistant for Introduction to Programming '14 & '15
 
 # Projects
 
-## Multi-User Drawing Tool
+## iJewel Studio (Pixotronics)
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- 2023-11 - Present
+- Created a comprehensive platform for jewelry designers to upload, optimize, and showcase 3D models
+- Implemented Blender-based pipelines for automatic 3D model optimization, including polygon reduction and texture enhancement
+- Developed an asynchronous job queue system for efficient processing of multiple 3D models concurrently
+- Integrated real-time rendering capabilities for instant previews of jewelry designs
+- Tech Stack: Next.js, React, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, Blender
 
-## Synchronized Calendar
+## Solar Savings Calculator (EnergyGrade)
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- 2016-11 - Present
+- Developed a user-facing, fully responsive, and interactive online calculator for estimating solar installation costs and savings
+- Implemented efficient algorithms to provide accurate, real-time projections based on user input and location-specific data
+- Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
+- Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery
 
-## Operating System
+## SquareCubed (Pixotronics)
 
-- 2002
-- Developed a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- 2023-10 - 2023-11
+- Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
+- Implemented a scalable backend architecture to handle real-time AI interactions and 3D model rendering
+- Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
+- Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python
 
-# Additional Experience and Awards
+## Mouve App
 
-- Instructor (2003-2005): Taught 2 full-credit computer science courses
-- Third Prize, Senior Design Project: Awarded 3rd prize for a synchronized calendar project out of 100 entries
-# Technologies
+- 2019-07 - 2020-01
+- Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories
+- Implemented fault-tolerant design with automated error handling and recovery
+- Tech Stack: Node.js, Sails.js, Unity
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Software: .NET, Microsoft SQL Server, XCode, Interface Builder
+# Skills
+
+- Languages: Python, Ruby, Bash, JavaScript, SQL, Java, C, Golang
+- Databases: PostgreSQL, MongoDB, MySQL, Redshift, MemSQL, SQLite
+- Frameworks: Rails, Django, FastAPI, Flask, React, Next.js, Spring Boot
+- DevOps & Cloud: Docker, Kubernetes, AWS, GCP, Terraform, Puppet, StackStorm, HTCondor, Ansible, Slurm, Helm
+- Monitoring & Analytics: ELK Stack, InfluxDB, Graphite, Grafana
+- Core Competencies: Software Design, Distributed Computing, Scalable Architecture, Performance Optimization, DevOps & Cloud Infrastructure, Data Analytics, Asynchronous Systems, Intuitive UI/UX, Auto-scaling, Extendable Systems, Reusable Code, Modular Design, Concurrent Processing, Cost-effective Solutions, Highly Available Systems, Resilient Architecture, Well-tested Systems, CI/CD, Test-Driven Development, Multi-threading, Real-time Processing
+- Other: JIRA, Agile Methodologies, Collaboration, Communication, Adaptability, Innovation, Mentoring, Problem-Solving, Critical Thinking

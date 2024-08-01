@@ -1,4 +1,4 @@
-\documentclass[10pt, a4paper]{article}
+\documentclass[11pt, a4paper]{article}
 
 % Packages:
 \usepackage[
@@ -44,7 +44,7 @@
     \usepackage{lmodern}
 \fi
 
-\usepackage[default, type1]{sourcesanspro} 
+\renewcommand{\familydefault}{\sfdefault}
 
 % Some settings:
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
@@ -68,10 +68,10 @@
     -1pt
 }{
     % top space:
-    0.3 cm
+    0.1 cm
 }{
     % bottom space:
-    0.2 cm
+    0.1 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
@@ -102,9 +102,9 @@
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
-        0.2 cm + 0.00001 cm
+        0.1 cm + 0.00001 cm
     }{
-        0.2 cm + 0.00001 cm
+        0.1 cm + 0.00001 cm
     }
 }{
     \end{adjustwidth}
@@ -142,7 +142,7 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-1 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperwidth-1 cm-0.1 cm+0.05cm},
         \LenToUnit{\paperheight-0.5 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
         \small\color{gray}\textit{Last updated in August 2024}\hspace{\widthof{Last updated in August 2024}}
@@ -169,7 +169,7 @@
     \begin{header}
         \fontsize{24 pt}{24 pt}\selectfont Ankur Singh
 
-        \vspace{0.3 cm}
+        \vspace{0.1 cm}
 
         \normalsize
         \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Bangalore, India}%
@@ -195,7 +195,7 @@
         \mbox{\hrefWithoutArrow{https://github.com/rush-skills}{{\footnotesize\faGithub}\hspace*{0.13cm}rush-skills}}%
     \end{header}
 
-    \vspace{0.3 cm - 0.3 cm}
+    \vspace{0.1 cm - 0.1 cm}
 
 
     \section{Summary}
@@ -231,7 +231,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             Sept 2020 – Feb 2023
@@ -250,7 +250,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             June 2018 – July 2019
@@ -269,7 +269,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             July 2017 – June 2018
@@ -335,7 +335,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             2016-11 - Present
@@ -353,7 +353,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             2023-10 - 2023-11
@@ -371,7 +371,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{twocolentry}{
             2019-07 - 2020-01
@@ -399,37 +399,37 @@
             \textbf{Languages:} Python, Ruby, Bash, JavaScript, SQL, Java, C, Golang
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{Databases:} PostgreSQL, MySQL, MongoDB, SQLite, Redshift, MemSQL
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{Frameworks:} Rails, Django, FastAPI, Flask, React, Next.js, Spring Boot
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{DevOps \& Cloud:} Puppet, Ansible, Docker, Kubernetes, AWS, GCP, Azure, Terraform, Helm, StackStorm, HTCondor, Slurm
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{Monitoring \& Analytics:} ELK Stack, InfluxDB, Graphite, Grafana
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{Core Competencies:} Software Design, Distributed Computing, Scalable Architecture, Performance Optimization, DevOps \& Cloud Infrastructure, Data Analytics, Asynchronous Systems, Intuitive UI/UX, Auto-scaling, Extendable Systems, Reusable Code, Modular Design, Concurrent Processing, Cost-effective Solutions, Highly Available Systems, Resilient Architecture, Well-tested Systems, CI/CD, Test-Driven Development, Multi-threading, Real-time Processing
         \end{onecolentry}
 
-        \vspace{0.2 cm}
+        \vspace{0.1 cm}
 
         \begin{onecolentry}
             \textbf{Other:} JIRA, Agile Methodologies, Collaboration, Communication, Adaptability, Innovation, Mentoring, Problem-Solving, Critical Thinking

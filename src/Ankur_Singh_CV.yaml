@@ -116,7 +116,7 @@ cv:
 design:
   theme: engineeringresumes
   font: Source Sans 3
-  font_size: 11pt
+  font_size: 10pt
   page_size: a4paper
   color: "#004f90"
   disable_external_link_icons: false
@@ -130,10 +130,10 @@ design:
   use_icons_for_connections: true
   margins:
     page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
     section_title:
       top: 0.3 cm
       bottom: 0.2 cm

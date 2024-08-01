@@ -70,7 +70,7 @@ cv:
           - SysAdmin TA for Data Center and R&D infrastructure
           - Teaching Assistant for Introduction to Programming '14 & '15
     projects:
-      - name: [iJewel Studio](https://ijewel.studio/) (Pixotronics)
+      - name: "[iJewel Studio](https://ijewel.studio/) (Pixotronics)"
         date: 2023-11 - Present
         highlights:
           - Created a comprehensive platform for jewelry designers to upload, optimize, and showcase 3D models
@@ -78,21 +78,21 @@ cv:
           - Developed an asynchronous job queue system for efficient processing of multiple 3D models concurrently
           - Integrated real-time rendering capabilities for instant previews of jewelry designs
           - "Tech Stack: Next.js, React, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, Blender"
-      - name: [Solar Savings Calculator](https://energygrade.in/) (EnergyGrade)
+      - name: "[Solar Savings Calculator](https://energygrade.in/) (EnergyGrade)"
         date: 2016-11 - Present
         highlights:
           - Developed a user-facing, fully responsive, and interactive online calculator for estimating solar installation costs and savings
           - Implemented efficient algorithms to provide accurate, real-time projections based on user input and location-specific data
           - Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
           - "Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery"
-      - name: [SquareCubed](https://squarecubed.anks.in/)
+      - name: "[SquareCubed](https://squarecubed.anks.in/)"
         date: 2023-10 - 2023-11
         highlights:
           - Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
           - Implemented a scalable backend architecture to handle real-time AI interactions and 3D model rendering
           - Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
           - "Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python"
-      - name: [Mouve App](https://mouve.app/)
+      - name: "[Mouve App](https://mouve.app/)"
         date: 2019-07 - 2020-01
         highlights:
           - Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories

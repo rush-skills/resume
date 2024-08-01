@@ -30,7 +30,7 @@ jobs:
             exit 1
           fi
           cd ..
-          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex
+          rendercv render src/$cv_file --pdf-path ${cv_file%.yaml}.pdf --markdown-path README.md --latex-path ${cv_file%.yaml}.tex --html-path index.html
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
         with:
@@ -44,6 +44,7 @@ jobs:
             cv:
               - '*_CV.tex'
               - 'README.md'
+              - índex.html'
       - name: Push the changes
         if: steps.changes.outputs.cv == 'true'
         run: |

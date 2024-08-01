@@ -19,7 +19,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 - Oct 2023 – present
 - Remote, India
 - Architected and developed scalable, real-time 3D file processing solutions for the online jewelry business
-- Created robust, high-performing backend services and DevOps pipelines for[iJewel Studio](https://ijewel.studio/) and [SquareCubed](https://squarecubed.anks.in/)
+- Created robust, high-performing backend services and DevOps pipelines for [iJewel Studio](https://ijewel.studio/) and [SquareCubed](https://squarecubed.anks.in/)
 - Integrated AI and photorealistic 3D rendering into e-commerce platforms, enhancing user engagement
 - Delivered innovative platforms that significantly improved the online jewelry design and customization experience, enabling real-time 3D model manipulation and AI-assisted design suggestions
 - Tech Stack: Next.js, React, Svelte, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, WebGi, Google Vertex AI

@@ -1,0 +1,154 @@
+cv:
+  name: Ankur Singh
+  location: Remote, India
+  email: hello@anks.in
+  phone: tel:+919717193630
+  website: https://anks.in
+  social_networks:
+    - network: LinkedIn
+      username: ankursingh13
+    - network: GitHub
+      username: rush-skills
+  sections:
+    summary:
+      - Versatile Software Engineer and DevOps specialist with extensive experience in designing and managing large-scale, distributed systems. Proven track record in building scalable, fault-tolerant applications and automating complex processes across diverse technology stacks. Adept at creating high-performing, secure, and resilient solutions that drive business value. Passionate about continuous learning, innovation, and mentoring to enhance system performance and foster team growth.
+    experience:
+      - company: Pixotronics
+        position: Software Engineer
+        location: Remote, India
+        start_date: 2023-10
+        end_date: present
+        highlights:
+          - Architected and developed scalable, real-time 3D file processing solutions for the online jewelry business
+          - Created robust, high-performing backend services and DevOps pipelines for iJewel Studio and SquareCubed
+          - Integrated AI and photorealistic 3D rendering into e-commerce platforms, enhancing user engagement
+          - Delivered innovative platforms that significantly improved the online jewelry design and customization experience, enabling real-time 3D model manipulation and AI-assisted design suggestions
+          - "Tech Stack: Next.js, React, Svelte, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, WebGi, Google Vertex AI"
+      - company: European Organization for Nuclear Research (CERN)
+        position: Computing Fellow
+        location: Geneva, Switzerland
+        start_date: 2020-09
+        end_date: 2023-02
+        highlights:
+          - Managed core research compute infrastructure, ensuring high availability for a 250k core compute cluster
+          - Designed and implemented fault-tolerant DevOps automation with StackStorm, significantly reducing manual workload
+          - Developed adaptive load shaping solutions for resource-intensive research jobs, addressing critical storage issues
+          - Automated the roles of two support engineers by designing and implementing automation workflows to handle manual remediation processes for cluster nodes, reducing labor costs, minimizing human error, and improving uptime metrics across the production environment
+          - "Tech Stack: Puppet, MongoDB, Redis, RabbitMQ, Docker, Bash, Python, StackStorm, Kafka, Kubernetes, Golang, Terraform, Foreman, GitLab CI, Grafana, Graphite"
+      - company: Tower Research Capital
+        position: Software Engineer, HPC
+        location: Gurugram, India
+        start_date: 2018-06
+        end_date: 2019-07
+        highlights:
+          - Administered 4 HTCondor clusters with over 30k cores for high-frequency, low-latency trading operations
+          - Implemented advanced, real-time monitoring solutions using ELK stack, InfluxDB, and Grafana
+          - Contributed to setting up a 500-node Kubernetes cluster for infrastructure migration, focusing on scalability and resilience
+          - Enhanced system performance and reliability, enabling efficient and secure trading operations
+          - "Tech Stack: CFEngine, SaltStack, ELK Stack, InfluxDB, Kubernetes, GPFS, Graphite, Grafana"
+      - company: Myntra
+        position: Software Engineer, BI/Analytics
+        location: Bengaluru, India
+        start_date: 2017-07
+        end_date: 2018-06
+        highlights:
+          - Developed and optimized data-intensive analytics platforms, improving business intelligence and decision-making efficiency
+          - Enhanced Universal Dashboarding Platform (UDP) and Data Democracy Portal (DDP), resulting in improved performance and scalability
+          - Re-architected Personify user segmentation platform, significantly reducing processing time and improving user experience
+          - Enabled efficient, data-driven decision-making processes across the organization, enhancing overall operational efficiency
+          - "Tech Stack: Java, Spring, Redshift, MySQL, AWS, Tomcat, Jersey, MemSQL, Redis"
+    education:
+      - institution: IIIT Delhi
+        area: Computer Science and Engineering
+        degree: B. Tech.
+        location: New Delhi, India
+        start_date: 2013-08
+        end_date: 2017-07
+        highlights:
+          - Gold Medalist for Best BTech Project (Entrepreneurship)
+          - Admin of Byld - SDE Club
+          - SysAdmin TA for Data Center and R&D infrastructure
+          - Teaching Assistant for Introduction to Programming '14 & '15
+    projects:
+      - name: iJewel Studio (Pixotronics)
+        date: 2023-11 - Present
+        highlights:
+          - Created a comprehensive platform for jewelry designers to upload, optimize, and showcase 3D models
+          - Implemented Blender-based pipelines for automatic 3D model optimization, including polygon reduction and texture enhancement
+          - Developed an asynchronous job queue system for efficient processing of multiple 3D models concurrently
+          - Integrated real-time rendering capabilities for instant previews of jewelry designs
+          - "Tech Stack: Next.js, React, Supabase, PostgreSQL, TypeScript, Python, Cloudflare Workers, Docker, Blender"
+      - name: Solar Savings Calculator (EnergyGrade)
+        date: 2016-11 - Present
+        highlights:
+          - Developed a user-facing, fully responsive, and interactive online calculator for estimating solar installation costs and savings
+          - Implemented efficient algorithms to provide accurate, real-time projections based on user input and location-specific data
+          - Designed an intuitive interface to simplify the complex decision-making process for potential solar adopters
+          - "Tech Stack: JavaScript, Ruby on Rails, PostgreSQL, jQuery"
+      - name: SquareCubed (Pixotronics)
+        date: 2023-10 - 2023-11
+        highlights:
+          - Developed an AI-assisted virtual showroom experience specifically for Square e-commerce stores
+          - Implemented a scalable backend architecture to handle real-time AI interactions and 3D model rendering
+          - Integrated seamlessly with Square's APIs to provide a cohesive experience for store owners and customers
+          - "Tech Stack: Google Vertex AI, Svelte, Next.js, WebGi SDK, Square APIs, Cloudflare Workers, Node.js, Python"
+      - name: Mouve App
+        date: 2019-07 - 2020-01
+        highlights:
+          - Built secure, scalable backend APIs for a customer-facing app enabling Instagram creators to create animated stories
+          - Implemented fault-tolerant design with automated error handling and recovery
+          - "Tech Stack: Node.js, Sails.js, Unity"
+    skills:
+      - label: Languages
+        details: Python, Ruby, Bash, JavaScript, SQL, Java, C, Golang
+      - label: Databases
+        details: PostgreSQL, MongoDB, MySQL, Redshift, MemSQL, SQLite
+      - label: Frameworks
+        details: Rails, Django, FastAPI, Flask, React, Next.js, Spring Boot
+      - label: DevOps & Cloud
+        details: Docker, Kubernetes, AWS, GCP, Terraform, Puppet, StackStorm, HTCondor, Ansible, Slurm, Helm
+      - label: Monitoring & Analytics
+        details: ELK Stack, InfluxDB, Graphite, Grafana
+      - label: Core Competencies
+        details: Software Design, Distributed Computing, Scalable Architecture, Performance Optimization, DevOps & Cloud Infrastructure, Data Analytics, Asynchronous Systems, Intuitive UI/UX, Auto-scaling, Extendable Systems, Reusable Code, Modular Design, Concurrent Processing, Cost-effective Solutions, Highly Available Systems, Resilient Architecture, Well-tested Systems, CI/CD, Test-Driven Development, Multi-threading, Real-time Processing
+      - label: Other
+        details: JIRA, Agile Methodologies, Collaboration, Communication, Adaptability, Innovation, Mentoring, Problem-Solving, Critical Thinking
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 12pt
+  page_size: a4paper
+  color: "#004f90"
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ""
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience

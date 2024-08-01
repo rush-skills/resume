@@ -114,9 +114,9 @@ cv:
       - label: Other
         details: JIRA, Agile Methodologies, Collaboration, Communication, Adaptability, Innovation, Mentoring, Problem-Solving, Critical Thinking
 design:
-  theme: classic
+  theme: engineeringresumes
   font: Source Sans 3
-  font_size: 12pt
+  font_size: 11pt
   page_size: a4paper
   color: "#004f90"
   disable_external_link_icons: false

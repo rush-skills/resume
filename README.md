@@ -14,7 +14,7 @@ Versatile Software Engineer and DevOps specialist with extensive experience in d
 
 # Experience
 
-## Pixotronics, Software Engineer
+## Pixotronics, Software Engineer (Freelance)
 
 - Oct 2023 – present
 - Remote, India
